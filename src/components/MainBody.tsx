@@ -1,3 +1,4 @@
+import "../stylesheets/emailMain.css";
 
 import Toolbar from "./Toolbar";
 import Article from "./EmailArticle";

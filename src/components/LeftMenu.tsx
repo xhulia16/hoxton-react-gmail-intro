@@ -1,6 +1,5 @@
 
-
-
+import "../stylesheets/leftMenu.css";
 
 function LeftMenu(){
     return(

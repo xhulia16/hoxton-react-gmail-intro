@@ -1,3 +1,5 @@
+import "./stylesheets/emailActions.css";
+
 function EmailActions(){
     return(<section className="email-actions">
     <button>Reply</button>

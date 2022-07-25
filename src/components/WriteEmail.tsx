@@ -5,18 +5,18 @@ function WriteEmail() {
   return (
     <section className="new-email__section">
       <div>
-        <img src="https://simg.nicepng.com/png/small/128-1280406_view-user-icon-png-user-circle-icon-png.png" />
+        <img className="user-img" src="https://simg.nicepng.com/png/small/128-1280406_view-user-icon-png-user-circle-icon-png.png" />
       </div>
       <div className="email-box">
-        <div>
-        <img src={backArrow} alt="reply button" />
+        <div className="new-email_header">
+        <img src={backArrow} alt="reply button" className="go-back_button" />
         <h4>Freepik Company(no-reply@freepik.com)</h4>
         </div>
-        <input type="text" placeholder="Write your email here"></input>
+        <input type="text" placeholder="Write your email here" className="new-email_input"></input>
         <div>
             <nav>
-                <ul>
-                    <li><button>Send</button></li>
+                <ul className="new-email_list">
+                    <li><button className="send-button">Send</button></li>
                     <li><span className="material-symbols-outlined">text_format</span></li>
                     <li><span className="material-symbols-outlined">attach_file</span></li>
                     <li><span className="material-symbols-outlined">attachment</span></li>

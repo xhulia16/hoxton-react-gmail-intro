@@ -52,3 +52,10 @@
     background-color: rgb(50, 103, 218);
     border:none;
 }
+
+.email-address{
+    color:rgb(112, 112, 112);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline solid rgb(255, 203, 33);
+}

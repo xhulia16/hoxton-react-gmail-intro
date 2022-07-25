@@ -10,7 +10,7 @@ function WriteEmail() {
       <div className="email-box">
         <div className="new-email_header">
         <img src={backArrow} alt="reply button" className="go-back_button" />
-        <h4>Freepik Company(no-reply@freepik.com)</h4>
+        <h4 className="email-address">Freepik Company(no-reply@freepik.com)</h4>
         </div>
         <input type="text" placeholder="Write your email here" className="new-email_input"></input>
         <div>

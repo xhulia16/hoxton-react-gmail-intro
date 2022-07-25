@@ -1,0 +1,12 @@
+.email-body .content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .email-body .content img {
+    width: 100%;
+  }
+  
+  .email-actions {
+    padding: 1rem 0.5rem;
+  }

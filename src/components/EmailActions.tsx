@@ -1,4 +1,4 @@
-import "./stylesheets/emailActions.css";
+import "../stylesheets/emailActions.css";
 
 function EmailActions(){
     return(<section className="email-actions">

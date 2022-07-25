@@ -1,61 +1,60 @@
-.new-email__section{
-    display:grid;
-    grid-auto-flow: column;
-    gap:20px;
-    margin:auto;
-    width:100vh;
-    padding: 30px;
+.new-email__section {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  margin: auto;
+  width: 100vh;
 }
 
-.new-email_input{
-    width: 100vh;
-    border:none;
-    margin:10px;
-  }
-
-.new-email_list{
-    padding-top: 100px;
-    display: grid;
-    list-style: none;
-    grid-auto-flow: column;
-    justify-content: left;
-    gap:8px;
-    margin:5px;
+.new-email_input {
+  width: 100vh;
+  border: none;
+  margin: 10px;
 }
 
-.user-img{
-    width:30px;
+.new-email_list {
+  padding-top: 100px;
+  display: grid;
+  list-style: none;
+  grid-auto-flow: column;
+  justify-content: left;
+  gap: 8px;
+  margin: 5px;
 }
 
-.email-box{
-    display: grid;
-    border: 1px solid rgb(50, 103, 218);;
-    border-radius: 15px;
+.user-img {
+  width: 30px;
 }
 
-.new-email_header{
-    display: grid;
-    grid-auto-flow: column;
-    padding:10px;
-    justify-content: left;
-    gap:10px;
+.email-box {
+  display: grid;
+  border: 1px solid rgb(50, 103, 218);
+  border-radius: 15px;
 }
 
-.go-back_button{
-    width:15px;
+.new-email_header {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 10px;
+  justify-content: left;
+  gap: 10px;
 }
 
-.send-button{
-    padding: 5px;
-    width:80px;
-    color:whitesmoke;
-    background-color: rgb(50, 103, 218);
-    border:none;
+.go-back_button {
+  width: 15px;
 }
 
-.email-address{
-    color:rgb(112, 112, 112);
-    font-size: 15px;
-    font-weight: 600;
-    text-decoration: underline solid rgb(255, 203, 33);
+.send-button {
+  padding: 5px;
+  width: 80px;
+  color: whitesmoke;
+  background-color: rgb(50, 103, 218);
+  border: none;
+}
+
+.email-address {
+  color: rgb(112, 112, 112);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline solid rgb(255, 203, 33);
 }
